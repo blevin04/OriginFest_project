@@ -37,7 +37,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   curved_navigation_bar: ^1.0.6
   font_awesome_flutter: ^10.7.0
-
+  table_calendar: ^3.1.2
+  url_launcher: ^6.3.1
+  timer_count_down: ^2.2.2
+  flutter_timer_countdown: ^1.0.7
+  location: ^7.0.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -70,7 +74,26 @@ flutter:
       - lib/Assets/office.png
       - lib/Assets/lab.png
       - lib/Assets/class.png
-
+      - lib/Assets/logo.png
+      - lib/Assets/match.jpg
+      - lib/Assets/origin.png
+      - lib/Assets/beauty.jpeg
+      - lib/Assets/computing.jpg
+      - lib/Assets/dekutes.jpg
+      - lib/Assets/electronics.jpg
+      - lib/Assets/fashiom.jpg
+      - lib/Assets/homeoffice.webp
+      - lib/Assets/phones.jpg
+      - lib/Assets/sport.jpg
+      - lib/Assets/messhat.webp
+      - lib/Assets/dkutfarm.jpeg
+      - lib/Assets/Sp2.webp
+      - lib/Assets/Sp1.jpeg
+      - lib/Assets/phone1.jpg
+      - lib/Assets/head1.jpg
+      - lib/Assets/dp0.png
+      - lib/Assets/officeview.jpeg
+      - lib/Assets/or1.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
