@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hack_01/clubs.dart';
 import 'package:hack_01/homepage.dart';
+import 'package:hack_01/loginSignup.dart';
 import 'package:hack_01/main.dart';
 import 'package:hack_01/marketplace.dart';
 import 'package:hack_01/navigation_home.dart';
@@ -222,6 +223,14 @@ bool _value = false;
                 title: const Text("About "),
               ),
               const Divider(),
+              ListTile(
+                onTap: (){
+                  Navigator.push(context, (MaterialPageRoute(builder: (Context)=>const Loginsignup())));
+                  
+                },
+                title: const Text("Sign In"),
+              ),
+              const Divider()
             ],
           ),
         ),

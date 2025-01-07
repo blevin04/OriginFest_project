@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hack_01/mobile_layout.dart';
-import 'package:hack_01/responsive.dart';
 
 class Loginsignup extends StatefulWidget {
   const Loginsignup({super.key});

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hack_01/loginSignup.dart';
 import 'package:hack_01/mobile_layout.dart';
 import 'package:hack_01/web_layout.dart';
 
@@ -13,7 +12,7 @@ class Responsive extends StatelessWidget {
       {
         //mobile screen layout
         //works for mobile and small tablet devices
-        return Loginsignup();
+        return MobileLayout();
       }
 
     // web screen layout

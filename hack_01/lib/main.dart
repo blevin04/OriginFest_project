@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:hack_01/mobile_layout.dart';
 import 'package:hack_01/responsive.dart';
 
 void main() {
@@ -29,7 +28,6 @@ void changeTheme(ThemeMode themeMode) {
     return MaterialApp(
       title: 'Flutter Demo',
       themeMode: _themeMode,
-      
       darkTheme: ThemeData.dark(),
       theme: ThemeData(
         // This is the theme of your application.
